@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/a07d6cade6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/solid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <style>
+        .font {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+    <title>Fruit Blust</title>
+</head>
+
+<body class="font">
+    <header>
+        <!-- Navbar section -->
+        <div>
+            <div class=" lg:hidden navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="flex items-center gap-3">
+                        <img src="images/logo.png" alt="">
+                        <a class="normal-case text-2xl font-semibold text-[#F85559]">Fruit Blust</a>
+                    </div>
+                </div>
+                <div class="dropdown dropdown-left ml-auto">
+                    <label tabindex="0" class="btn btn-ghost">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-6 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                        <li><input type="text" placeholder="&#xF002; Search"
+                                style="font-family: Arial, 'Font Awesome 5 Free'"
+                                class="input input-bordered rounded-full w-auto md:w-auto" /></li>
+                    </ul>
+                </div>
+    
+            </div>
+            <div
+                class="hidden lg:flex items-center justify-items-center p-4 border-1 rounded-full border-[#F85559] bg-[#F85559]">
+                <div class="">
+                    <ul class="menu menu-horizontal text-xl text-white font-medium">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-center mx-auto">
+                    <div class="flex items-center gap-3">
+                        <img src="images/logo.png" alt="">
+                        <a class="normal-case text-3xl font-semibold text-white">Fruit Blust</a>
+                    </div>
+                </div>
+                <div class="ml-auto">
+                    <input type="text" placeholder="&#xF002; Search" style="font-family: Arial, 'Font Awesome 5 Free'"
+                        class="input input-bordered rounded-full w-24 md:w-auto" />
+                </div>
+            </div>
+        </div>
+        <!-- Banner Section -->
+        <div class="hero lg:min-h-screen mt-9" style="background-image: url(images/banner4.png);">
+            <div class="flex items-center lg:gap-[900px] gap-80 justify-between ">
+                <i class="fa-solid fa-circle-chevron-right fa-rotate-180 lg:fa-2xl" style="color: #000000;"></i>
+                <i class="fa-solid fa-circle-chevron-right lg:fa-2xl" style="color: #000000;"></i>
+            </div>
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content text-white">
+                <div class="max-w-md">
+                    <h1 class="lg:mb-5 mb-2 lg:text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                    <p class="lg:text-xl mb-2 lg:mb-5">We supply highly quality organic products</p>
+                    <button class="btn bg-[#F85559] lg:w-52  text-white border-none lg:text-xl">Show</button>
+                </div>
+            </div>
+        </div>
+        <div
+            class="hidden lg:absolute -mt-24 ml-48 bg-white border-1 border-white rounded-xl lg:flex w-[900px] items-center justify-between gap-3 p-7 ">
+            <div class="grid grid-col-1 place-items-center">
+                <img src="images/fruit1.png" alt="">
+                <p>Grape</p>
+            </div>
+            <div class="grid grid-col-1 place-items-center">
+                <img src="images/fruit2.png" alt="">
+                <p>Orange</p>
+            </div>
+            <div class="grid grid-col-1 place-items-center">
+                <img src="images/fruit3.png" alt="">
+                <p>Mango</p>
+            </div>
+            <div class="grid grid-col-1 place-items-center">
+                <img src="images/fruit4.png" alt="">
+                <p>Strawberry</p>
+            </div>
+            <div class="grid grid-col-1 place-items-center">
+                <img src="images/fruit5.png" alt="">
+                <p>Pomegranate</p>
+            </div>
+    
+        </div>
+    
+    </header>
+
+    <main>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
